@@ -8,4 +8,4 @@ RUN echo "4a94356f7401ac8be30a992a414ca9b9 /mule-standalone-3.5.0.tar.gz" | md5s
 RUN rm ~/mule-standalone-3.5.0.tar.gz
 RUN ln -s /opt/mule-standalone-3.5.0 /opt/mule 
 
-CMD [ "/opt/mule/bin/mule" ]
+#CMD [ "/opt/mule/bin/mule" ]
